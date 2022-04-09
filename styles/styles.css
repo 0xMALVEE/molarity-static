@@ -7,9 +7,7 @@
 body{
     margin:0;
 }
-header div{
-    /* padding: 200px; */
-}
+
 header{
     display: flex;
     justify-content: center;
@@ -117,6 +115,10 @@ header div a:hover{
       margin-bottom: 0px;
       height: fit-content;
       padding:40px;
+      overflow-x: auto;
+      flex-wrap: wrap;
+
+
   }
 
   section h3{
@@ -179,3 +181,74 @@ header div a:hover{
      text-align: center;
      font-family: "Poppins", sans-serif;
  }
+
+ div#tos {
+     height: 100vh;
+     background-color: #060029;
+     color:white;
+     text-align: center;
+     font-family: "Poppins",sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-weight: bolder !important;
+ }
+
+ div#tos h1{
+     margin:0;
+     font-size: 40px;
+     font-weight: bolder !important;
+ }
+
+ div#tos li{
+     text-align: left;
+ }
+
+ div#tos div.ol{
+     display: block;
+     padding:0px 300px;
+     margin-top: 50px;
+ 
+ }
+
+ div#tos h4{
+     /* color:red; */
+     font-weight: bolder !important;
+ }
+
+ section {
+     position: relative;
+ }
+
+ section h3.more{
+     position: absolute;
+     bottom: 40px;
+     left:40%
+
+
+    }
+
+
+    @media screen and (max-width: 1275px) {
+        body {
+          /* display: none; */
+        }
+
+        div#tos div.ol{
+     
+            padding:0px 0px;
+         
+        
+        }
+      }
+
+      
+    @media screen and (max-width: 930px) {
+        body {
+          /* display: none; */
+        }
+
+        section div{
+           margin-top: 20px;
+        }
+      }
