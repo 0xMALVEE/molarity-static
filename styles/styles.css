@@ -247,7 +247,19 @@ header div a:hover{
         body {
           /* display: none; */
         }
-
+        section {
+            position: static;
+            height: fit-content;
+        }
+        
+        section h3.more{
+            display: none;
+            position:static;
+            /* bottom: 40px;
+            left:40% */
+       
+       
+           }
         section div{
            margin-top: 20px;
         }
