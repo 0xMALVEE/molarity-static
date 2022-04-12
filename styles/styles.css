@@ -230,9 +230,7 @@ header div a:hover{
 
 
     @media screen and (max-width: 1275px) {
-        body {
-          /* display: none; */
-        }
+   
 
         div#tos div.ol{
      
@@ -244,14 +242,12 @@ header div a:hover{
 
       
     @media screen and (max-width: 930px) {
-        body {
-          /* display: none; */
-        }
+  
         section {
             position: static;
             height: fit-content;
         }
-        
+     
         section h3.more{
             display: none;
             position:static;
